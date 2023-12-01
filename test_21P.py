@@ -7,6 +7,7 @@ class NoResultError(Exception):
 
 
 # Функция
+# Комментарий 2
 def drink_in_hot_day(*stroki, temp=5):
     if not stroki:
         raise EmptyArgsError('No arguments')
